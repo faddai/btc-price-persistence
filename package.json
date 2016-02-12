@@ -1,0 +1,17 @@
+{
+  "name": "btc-price-persistence",
+  "version": "1.0.0",
+  "description": "Stores market data collected from crypto exchanges.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Francis Addai <me@faddai.com> (http://faddai.com)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.bindall": "^4.0.0",
+    "mongoose": "^4.4.3",
+    "socket.io-client": "^1.4.5"
+  }
+}
